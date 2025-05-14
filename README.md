@@ -3,58 +3,43 @@ By Charles Nicolai &amp; Thomas Rolland
 
 # 🎹 Digital Musical Instruments – PyQt5 Project
 
-This is an interactive PyQt5-based desktop application that lets users play and record musical notes using three distinct virtual instruments:
+We made this interactive PyQt5-based app that allows users to play and record music using three instruments:
 
-- 🎹 Piano (with octave selector)
+- 🎹 Piano (with different octaves)
 - 🎼 Xylophone
-- 🕹️ Video Game Synth (custom icons + background)
+- 🕹️ Video Game
 
-The application supports live playback, recording, saving scores to `.txt`, and replaying saved performances. It also includes a dark/light theme toggle with persistent settings.
+The app also allows the user to record, and save to `.txt`, and replaying saved performances. 
 
 ---
 
 ## 🚀 Features
 
-- 🎶 Real-time audio playback for each note
-- 🔴 Record your performance with accurate timing
-- 💾 Save your recordings to file
-- 📂 Load and play scores from a file
-- 🎨 Custom UI with dark/light theme toggle
-- 🖼️ Icon-based note buttons in video game mode
-- 📱 Responsive layout and hover effects
+- A WELCOME page to choose the instrument you want to play
+- 🎶 Real-time audio for each note
+- 🔴 Record your performance
+- 💾 Save your recordings to files
+- 📂 Load and play from a txt from a file
+- 🎨 Possibility to switch between dark/light themes
+- 🖼️ Icon-based note buttons in video game
+- 📱 Responsive layout
 
 ---
 
-## 📸 Screenshots
+## 🤖 Use of AI
 
-> *(Include screenshots here showing each mode: piano, xylophone, game synth, theme toggle, etc.)*
-
----
-
-## ⚙️ Technologies
-
-- Python 3.x
-- PyQt5 for GUI
-- Threading and timers for non-blocking playback
-- Custom widgets and styling with Qt Stylesheets
-
----
-
-## 🤖 AI Use Transparency
-
-I used **ChatGPT as a development assistant** throughout this project to:
+We used ChatGPT to help us throughout this project to:
 - Debug layout and stylesheet issues in PyQt5
-- Fix `QMessageBox` bugs in dark mode
-- Simplify icon integration for buttons
-- Help with structured code design and feature planning
+- Fix some issues mainly with message boc and recording
+- Help design and simplify the code for visual tools
 
-Every line of code was reviewed, tested, and adjusted by me. AI was used **as a coding assistant**, not a replacement. This reflects how professional developers use tools to accelerate learning and polish, not to outsource creativity or understanding.
-
+However, we reviewed every line of code, tested, and modified them if needed.
 ---
 
 ## 📂 Run the App
 
-Clone the repo, install dependencies, and run the script:
+To run the app, download the folder with Final_HMI2, the icons folder, and the instrument.py file.
+To launch, use your coding app and make sure every of these files are in the same group.
 
 ```bash
 pip install PyQt5
